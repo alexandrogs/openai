@@ -1,0 +1,28 @@
+
+
+import os
+import sys
+import platform
+
+def get_user_folder():
+    """
+    get user folder
+    """
+    if platform.system() == 'Windows':
+        return os.path.join(os.environ['USERPROFILE'], 'Documents')
+    else:
+        return os.path.join(os.environ['HOME'])
+
+def check_type_system():
+    """
+    check type system
+    """
+    if platform.system() == 'Windows':
+        return 'Windows'
+    elif platform.system() == 'Linux':
+        return 'Linux'
+    elif platform.system() == 'Darwin':
+        return 'Mac'
+    else:
+        print('System not supported')
+        sys.exit(1)

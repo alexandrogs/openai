@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="add65f2b-f832-4b30-98e6-f08078e30d73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T000251-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T000559-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T000559-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T001010-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T001010-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T033311-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T033311-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T034957-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T034957-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T035227-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T035227-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T035251-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T035251-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T045004-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T045004-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T055018-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T055018-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T061346-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T061346-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T061604-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T061604-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T062349-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T062349-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T062941-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063014-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063014-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063154-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063154-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063306-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063306-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063330-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T063330-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T161908-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T161908-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T162012-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T162012-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T162031-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T162031-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T200438-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T200438-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T201122-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T201122-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T201205-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T201205-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T202045-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T202045-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T202052-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/complete/20220930T202052-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T000657-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T000657-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T000750-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T000750-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T045129-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T045129-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T045132-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T045132-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T045808-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T045808-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T191133-4/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history/insert/20220930T191133-4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openai.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FT0I0tpGqVmC12fYG9E45DjtDb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alexandro/Nextcloud/Desktop/openai&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.Index">
+    <configuration name="Code" type="PythonConfigurationType" factoryName="Python">
+      <module name="openai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Alexandro\Nextcloud\Repos\blackroute\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Index" type="PythonConfigurationType" factoryName="Python">
+      <module name="openai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Alexandro\Nextcloud\Repos\blackroute\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Insert" type="PythonConfigurationType" factoryName="Python">
+      <module name="openai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Alexandro\Nextcloud\Repos\blackroute\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="insert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Code" />
+      <item itemvalue="Python.Index" />
+      <item itemvalue="Python.Insert" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="add65f2b-f832-4b30-98e6-f08078e30d73" name="Changes" comment="" />
+      <created>1664500701094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664500701094</updated>
+      <workItem from="1664500703411" duration="387000" />
+      <workItem from="1664501150216" duration="5965000" />
+      <workItem from="1664523093607" duration="9402000" />
+      <workItem from="1664568147811" duration="2222000" />
+      <workItem from="1664579420207" duration="5759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/openai$Index.coverage" NAME="Index Coverage Results" MODIFIED="1664585765721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/openai$code.coverage" NAME="code Coverage Results" MODIFIED="1664523177479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/openai$Python.coverage" NAME="Code Coverage Results" MODIFIED="1664533420720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/openai$insert.coverage" NAME="insert Coverage Results" MODIFIED="1664510865974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/openai$Insert.coverage" NAME="Insert Coverage Results" MODIFIED="1664528286500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

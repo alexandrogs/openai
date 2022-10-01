@@ -1,0 +1,8 @@
+class Lib(argparse.Namespace):
+    def __init__(self):
+        super(Lib, self).__init__()
+
+
+    class History(argparse.Namespace):
+        def __init__(self):
+            super([insert], self).__init__()

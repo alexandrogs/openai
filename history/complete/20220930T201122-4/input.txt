@@ -1,0 +1,3 @@
+"""
+use google cloud api translate
+"""

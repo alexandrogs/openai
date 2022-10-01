@@ -1,0 +1,63 @@
+"""
+use google cloud api translate
+"""
+
+import os
+import sys
+import json
+import time
+import requests
+import argparse
+import traceback
+from google.cloud import translate
+from google.cloud.translate import enums
+from google.cloud.translate import types
+from google.oauth2 import service_account
+
+# set the default encoding to utf-8
+# using sys.setdefaultencoding is not recommended.
+# instead, use the codecs module to set the default encoding
+# that will be used by the Unicode implementation
+import codecs
+
+codecs.register(lambda name: codecs.lookup('utf-8') if name == 'cp65001' else None)
+
+sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
+
+# set the maximum field size to unlimited
+# ref: https://stackoverflow.com/questions/16439301/how-to-prevent-pythons-csv-module-from-quoting-every-field
+import csv
+
+csv.field_size_limit(sys.maxsize)
+
+# set the maximum depth of the Python interpreter
+
+# stack to unlimited
+# ref: https://stackoverflow.com/questions/21546739/ctrl-c-crashes-python-interpreter
+import resource
+
+resource.setrlimit(resource.RLIMIT_STACK, (resource.RLIM_INFINITY, resource.RLIM_INFINITY))
+sys.setrecursionlimit(10 ** 6)
+
+# set the maximum number of threads to unlimited
+# ref: https://stackoverflow.com/questions/23206787/python-multiprocessing-pool-when-to-use-maxtasksperchild
+import multiprocessing
+
+multiprocessing.set_start_method('forkserver', force=True)
+multiprocessing.set_executable(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'executable'))
+multiprocessing.set_forkserver_preload(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'forkserver_
+
+preload.py'))
+multiprocessing.set_forkserver_preload(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'forkserver_
+preload.py'))
+
+# set the maximum number of processes to unlimited
+# ref: https://stackoverflow.com/questions/23206787/python-multiprocessing-pool-when-to-use-maxtasksperchild
+multiprocessing.set_max_children(multiprocessing.cpu_count() * 2)
+
+# set the maximum number of open files to unlimited
+# ref: https://stackoverflow.com/questions/5016847/multiprocessing-pool-when-to-use-maxtasksperchild
+multiprocessing.set_max_open_files(multiprocessing.cpu_count() * 2)
+
+# set the maximum number of bytes that can be allocated for an object
+# ref: https://stackoverflow.com/questions/23206787/python-multip

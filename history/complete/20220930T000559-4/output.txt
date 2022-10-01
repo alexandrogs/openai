@@ -1,0 +1,39 @@
+
+def make_dir(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+"""
+get file name
+"""
+def get_file_name(path):
+    return os.path.basename(path)
+
+"""
+get file name without extension
+"""
+def get_file_name_without_extension(path):
+    return os.path.splitext(get_file_name(path))[0]
+
+"""
+get file extension
+"""
+def get_file_extension(path):
+    return os.path.splitext(get_file_name(path))[1]
+
+"""
+get file path without extension
+"""
+def get_file_path_without_extension(path):
+    return os.path.splitext(path)[0]
+
+"""
+get file path without extension
+"""
+def get_file_path_without_extension(path):
+    return os.path.splitext(path)[0]
+
+"""
+get file path without extension
+"""
+def get_file_path_without_ext

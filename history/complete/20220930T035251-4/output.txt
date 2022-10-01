@@ -1,0 +1,43 @@
+
+
+import os
+import sys
+import getpass
+
+def get_user_folder():
+    """
+    get user folder
+    """
+    user_name = getpass.getuser()
+    user_folder = "/Users/" + user_name
+    return user_folder
+
+def get_user_folder_darwin():
+    """
+    get user folder
+    """
+    user_name = getpass.getuser()
+    user_folder = "/Users/" + user_name
+    return user_folder
+
+def get_user_folder_linux():
+    """
+    get user folder
+    """
+    user_name = getpass.getuser()
+    user_folder = "/home/" + user_name
+    return user_folder
+
+def get_user_folder_windows():
+    """
+    get user folder
+    """
+    user_name = getpass.getuser()
+    user_folder = "C:\\Users\\" + user_name
+    return user_folder
+
+def get_user_folder_cygwin():
+    """
+    get user folder
+    """
+    user_name =

@@ -1,0 +1,6 @@
+def e(f, i):
+    try:
+        return f()
+    except [insert]:
+        traceback.print_exc()
+        input(f'Error on {i}...')

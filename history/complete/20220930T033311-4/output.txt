@@ -1,0 +1,57 @@
+
+
+import os
+import sys
+import json
+import time
+import shutil
+import logging
+import argparse
+import subprocess
+import multiprocessing
+import traceback
+
+from collections import defaultdict
+
+from . import utils
+from . import config
+from . import __version__
+from . import __author__
+from . import __email__
+from . import __description__
+
+from . import __license__
+from . import __copyright__
+
+from . import __url__
+from . import __download_url__
+
+from . import __status__
+
+from . import __keywords__
+
+from . import __classifiers__
+
+from . import __requires__
+
+from . import __packages__
+
+from . import __package_dir__
+
+from . import __scripts__
+
+from . import __entry_points__
+
+from . import __install_requires__
+
+from . import __extras_require__
+
+from . import __python_requires__
+
+from . import __setup_requires__
+
+from . import __tests_require__
+
+from . import __test_suite__
+
+from . import __

@@ -1,0 +1,14 @@
+
+def f(i):
+    return e(lambda: g(i), i)
+
+def g(i):
+    return e(lambda: h(i), i)
+
+def h(i):
+    return e(lambda: i / 0, i)
+
+for i in range(10):
+    f(i)
+</code>
+

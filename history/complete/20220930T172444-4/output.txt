@@ -1,0 +1,32 @@
+ field
+function setDate(date) {
+	document.getElementById("date").value = date;
+}
+
+// set time in input field
+function setTime(time) {
+	document.getElementById("time").value = time;
+}
+
+// set date and time in input field
+function setDateTime(date, time) {
+	document.getElementById("date").value = date;
+	document.getElementById("time").value = time;
+}
+
+// set date and time in input field
+function setDateTime(date, time) {
+	document.getElementById("date").value = date;
+	document.getElementById("time").value = time;
+}
+
+// set date and time in input field
+function setDateTime(date, time) {
+	document.getElementById("date").value = date;
+	document.getElementById("time").value = time;
+}
+
+// set date and time in input field
+function setDateTime(date, time) {
+	document.getElementById("date").value = date;
+	document.getElementById("time").

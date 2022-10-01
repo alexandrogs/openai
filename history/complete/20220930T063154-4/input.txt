@@ -1,0 +1,3 @@
+"""
+get screenshot from element selenium
+"""

@@ -1,0 +1,34 @@
+"""
+use google cloud api translate
+"""
+
+
+import os
+import sys
+import json
+import time
+import requests
+import argparse
+import traceback
+from google.cloud import translate
+from google.cloud.translate import enums
+from google.cloud.translate import types
+from google.oauth2 import service_account
+
+# set the default encoding to utf-8
+# using sys.setdefaultencoding is deprecated
+if sys.version_info[0] < 3:
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+
+# global variables
+g_credentials = None
+g_translate_client = None
+g_translate_api_key = None
+g_translate_api_url = None
+g_translate_api_url_v2 = None
+g_translate_api_url_v3 = None
+g_translate_api_url_v3_beta1 = None
+g_translate_api_url_v3_beta2 = None
+g_translate_api_url_v3_beta3 = None
+g_translate_api_url_v3_beta4

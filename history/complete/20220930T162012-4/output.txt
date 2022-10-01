@@ -1,0 +1,11 @@
+
+
+=head1 SYNOPSIS
+
+    use lib '../../../../lib';
+    use Spreadsheet::Reader::ExcelXML::XMLReader::LibXML::XMLToPerlData;
+    use Spreadsheet::Reader::ExcelXML::XMLReader::LibXML::XMLToPerlData::Styles;
+    use Spreadsheet::Reader::ExcelXML::XMLReader::LibXML::XMLToPerlData::Styles::CountCellsWithNumberInInterval;
+    use Spreadsheet::Reader::ExcelXML::XMLReader::LibXML::XMLToPerlData::Styles::CountCellsWithNumberInInterval::LibreOffice;
+    use Spreadsheet::Reader::ExcelXML::XMLReader::LibXML::XMLToPerlData::Styles::CountCellsWithNumberInInterval::LibreOffice::Lang;
+    use Spreadsheet::Reader::ExcelXML::XMLReader::LibXML::XMLToPerlData::Styles::CountCellsWithNumberInInterval::LibreOffice::L

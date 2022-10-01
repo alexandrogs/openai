@@ -1,0 +1,37 @@
+ type
+var input = document.createElement("input");
+input.setAttribute("type", "date");
+
+// append to form element that you want .
+document.getElementById("form").appendChild(input);
+
+// HTML5
+<input type="date" />
+
+// CSS
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #dcdfe6;
+  padding: 7px 10px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+}
+
+// CSS
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+// CSS
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+// CSS
+input[type="date"]:focus {
+  border-color: #2d8cf

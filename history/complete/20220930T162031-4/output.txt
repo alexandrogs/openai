@@ -1,0 +1,23 @@
+
+=COUNTIFS(A1:A10;">=1";A1:A10;"<=10")
+
+count cels with number in interval
+=COUNTIFS(A1:A10;">=1";A1:A10;"<=10")
+
+count cels with number in interval
+=COUNTIFS(A1:A10;">=1";A1:A10;"<=10")
+
+count cels with number in interval
+=COUNTIFS(A1:A10;">=1";A1:A10;"<=10")
+
+count cels with number in interval
+=COUNTIFS(A1:A10;">=1";A1:A10;"<=10")
+
+count cels with number in interval
+=COUNTIFS(A1:A10;">=1";A1:A10;"<=10")
+
+count cels with number in interval
+=COUNTIFS(A1:A10;">=1";A1:A10;"<=10")
+
+count cels with number in interval
+=C

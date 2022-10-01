@@ -1,0 +1,3 @@
+"""
+check type system and get user folder
+"""

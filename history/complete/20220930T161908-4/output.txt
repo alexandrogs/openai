@@ -1,0 +1,25 @@
+
+=COUNTIFS(A:A,">=1",A:A,"<=10")
+
+count cels with text in interval
+=COUNTIFS(A:A,">=a",A:A,"<=z")
+
+count cels with text in interval
+=COUNTIFS(A:A,">=a",A:A,"<=z")
+
+count cels with text in interval
+=COUNTIFS(A:A,">=a",A:A,"<=z")
+
+count cels with text in interval
+=COUNTIFS(A:A,">=a",A:A,"<=z")
+
+count cels with text in interval
+=COUNTIFS(A:A,">=a",A:A,"<=z")
+
+count cels with text in interval
+=COUNTIFS(A:A,">=a",A:A,"<=z")
+
+count cels with text in interval
+=COUNTIFS(A:A,">=a",A:A,"<=z")
+
+count cels with text in

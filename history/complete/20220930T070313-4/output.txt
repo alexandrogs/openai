@@ -1,0 +1,35 @@
+
+def get_file_name(path):
+    return os.path.basename(path)
+
+"""
+get file name without extension
+"""
+def get_file_name_without_extension(path):
+    return os.path.splitext(get_file_name(path))[0]
+
+"""
+get file extension
+"""
+def get_file_extension(path):
+    return os.path.splitext(get_file_name(path))[1]
+
+"""
+get file size
+"""
+def get_file_size(path):
+    return os.path.getsize(path)
+
+"""
+get file size in human readable format
+"""
+def get_file_size_human_readable(path):
+    return sizeof_fmt(get_file_size(path))
+
+"""
+get file size in human readable format
+"""
+def sizeof_fmt(num, suffix='B'):
+    for unit in ['','Ki','Mi','Gi','Ti','Pi','Ei','Zi']:
+        if abs(num) < 1024.0:
+            return "%3.
