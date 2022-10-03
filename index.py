@@ -1,5 +1,6 @@
 from code import *
 from insert import *
+from translate.index import *
 import datetime
 class Index(Code, Insert):
     def __init__(self):
@@ -7,19 +8,25 @@ class Index(Code, Insert):
         Insert.__init__(self)
         with open("input.txt") as f: en = f.read()
         aux = en.split("[insert]")
+        self.start(aux)
+
+    def start(self, aux):
         if len(aux) == 2:
             prompt = aux[0]
             suffix = aux[1]
             datetime_variable = datetime.datetime.now().strftime("%Y%m%dT%H%M%S-4").strip()
             with open('logs.txt', 'w') as f: f.write(datetime_variable + '\n')
             self.insert(prompt, suffix)
+            return
+        if aux[0].split('\n')[0] in ['// translate', '//translate']:
+            Translate(aux[0].split('\n')[1:])
         else:
             prompt = aux[0]
             count = 1
             while True:
                 datetime_variable = datetime.datetime.now().strftime("%Y%m%dT%H%M%S-4").strip()
                 aux = '\n'.join(prompt.split('\n')[:3])
-                with open('logs.txt') as f: f.write(datetime_variable + " - " + aux + "\n")
+                with open('logs.txt', 'w') as f: f.write(datetime_variable + " - " + aux + "\n")
                 datetime_variable = self.code(prompt, count)
                 input('Continuar?')
                 dest = f"history/complete/{datetime_variable}"

@@ -21,5 +21,5 @@ class Lib(argparse.Namespace):
             os.makedirs(dest)
             for value in values:
                 file = f"{value}.txt"
-                with open(dest + '\n' + file, 'w') as f: f.write(values[value])
+                with open(dest + '/' + file, 'w') as f: f.write(values[value])
             return datetime_variable
